@@ -2,12 +2,10 @@
 
 import { NativeModules } from 'react-native';
 
-const RNApsalar = NativeModules.RNApsalar;
+const RNVisenze = NativeModules.RNVisenze;
 
-const ReactNativeApsalar = {
-    sendEvent: function(eventName, eventDetail) {
-        RNApsalar.sendEvent(eventName, eventDetail)
-    },
+const ReactNativeVisenze = {
+    
 }
 
-module.exports = ReactNativeApsalar;
+module.exports = ReactNativeVisenze;
